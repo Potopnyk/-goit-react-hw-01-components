@@ -1,0 +1,41 @@
+.friend__list {
+    text-align: center;
+    width: 600px;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+
+.friend__list li div {
+    display: flex;
+    align-items: center;
+    border: 2px solid rgba(161, 161, 161, 0.39);
+    width: 150px;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 4px;
+}
+
+.friend__list li div img {
+    border-radius: 10%;
+}
+
+.friend__list li {
+    display: flex;
+    justify-content: center;
+}
+
+.true {
+    font-size: 20px;
+    color: rgb(19, 255, 19);
+}
+
+.false {
+    font-size: 20px;
+    color: rgb(255, 29, 29);
+}
+
+.name {
+    margin-bottom: 0;
+}
